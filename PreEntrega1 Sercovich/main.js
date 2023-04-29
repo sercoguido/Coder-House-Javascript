@@ -75,8 +75,9 @@ while (eleccion != "6"){
 
                 if (compraPesosADolares > 0 && compraPesosADolares >= cotizacionDolar && compraPesosADolares <= dineroUsuario){
                     dineroUsuario = dineroUsuario - compraPesosADolares;
-                    dineroUsuarioDolares = compraPesosADolares / cotizacionDolar ;
-                    alert(`Compraste ${dineroUsuarioDolares} Dólares por el valor de ${compraPesosADolares} Pesos`)
+                    nuevoIngresoDolares = compraPesosADolares / cotizacionDolar ;
+                    dineroUsuarioDolares = dineroUsuarioDolares + nuevoIngresoDolares;
+                    alert(`Compraste ${nuevoIngresoDolares} Dólares por el valor de ${compraPesosADolares} Pesos`)
                 }else{alert("No es posible realizar esa operación")}
                 break;
             
@@ -92,7 +93,4 @@ while (eleccion != "6"){
 };
 
 alert(`Chau ${usuario}, lo esperamos pronto !`);
-
-
-
 

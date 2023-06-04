@@ -1,0 +1,161 @@
+body{
+    background-color: rgb(240, 240, 240);
+}
+.contenedor{
+    background-color: rgb(240, 240, 240);
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.logo{
+    transition: transform 0.3s;
+}
+.logo:hover{
+    transform: scale(1.02);
+}
+
+.contenedorFormulario{
+    width: 50%;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column
+}
+
+.botonFormulario{
+    background-color: rgb(16, 61, 139);
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 6rem;
+}
+.botonFormulario:hover{
+    background-color: rgb(27, 75, 158);
+}
+.tituloFormulario{
+    color: rgb(143, 142, 142);
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+}
+.inputingreso{
+    height: 2rem;
+}
+.usuarioValido {
+    color: green;
+}
+
+.usuarioInvalido {
+    color: red;
+}
+
+
+/* ESTILOS DE "CUENTA" */
+.contenedorDatos{
+    width: 95%;
+    height: 20rem;
+    border-radius: 1rem;
+    display: flex;
+}
+
+.contenedorCuenta{
+    background-color: rgb(240, 240, 240);
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.botonCerrar{
+    background-color: rgb(16, 61, 139);
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    height: 2rem;
+    font-size: 1rem;
+    margin: 5rem 0 2rem 0;
+}
+.botonCerrar:hover{
+    background-color: rgb(27, 75, 158);
+}
+
+.datosIzq{
+    width: 20%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.5rem;
+}
+.datosDer{
+    width: 80%;
+    background-color: #f7f7f7;
+}
+
+#textoBienvenida{
+    font-family: roboto;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.titulosSecundarios{
+color: #000000;
+font-size: 1rem;
+margin: 0;
+padding: 1rem;
+display: block;
+text-align: left;
+font-weight: 300;
+transition: all 0.3s;
+font-family: roboto;
+}
+
+.titulosSecundarios:hover{
+border-left: 0.4rem solid #2d5ec0;
+color: #2d5ec0;
+}
+.listaSecundarios{
+    padding: 0;
+}
+
+
+.ContainerDivisionIngresado1{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.ContainerDivisionIngresado2{
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.titulosPrincipalIngresado{
+    color: #9d9d9d;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 1.5rem;
+}
+
+.ContainerDivisionIngresado3{
+    width: 40%;
+    height: 50%;
+    display: flex;
+    border-radius: 1rem;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 0.3rem solid #2d5ec0;
+}
+
+.montoIngresado{
+    font-size: 2rem;
+    font-weight: 700;
+}

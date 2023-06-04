@@ -33,7 +33,7 @@ body{
     height: 3rem;
     font-size: 1rem;
     font-weight: 600;
-    margin-bottom: 6rem;
+    margin-bottom: 2rem;
 }
 .botonFormulario:hover{
     background-color: rgb(27, 75, 158);
@@ -45,6 +45,11 @@ body{
 }
 .inputingreso{
     height: 2rem;
+}
+.inputingresoinvalido{
+    height: 2rem;
+    border-color: red;
+    border-left: 0.5rem solid red;
 }
 .usuarioValido {
     color: green;
@@ -158,4 +163,12 @@ color: #2d5ec0;
 .montoIngresado{
     font-size: 2rem;
     font-weight: 700;
+}
+
+.botonCrear{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+    font-family: "roboto";
 }
